@@ -1,13 +1,12 @@
+
 function insertNumber(number) {
 
     let existingNumbers = $("#result").val()
     $("#result").val(existingNumbers + number);
 }
-
 function clearResult() {
     $("#result").val("")
 }
-
 function calculate() {
     let result = eval($("#result").val())
     $("#result").val(result);
